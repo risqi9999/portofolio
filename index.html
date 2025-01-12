@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a href="#home" class="navbar-brand logo">Muhamad <span>Risqi Ardani</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <nav class="navbar-nav ms-auto">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About Me</a>
+                    <a href="#project" class="nav-link">Portofolio</a>
+                    <a href="#skill" class="nav-link">Skill</a>
+                    <a href="#contact" class="nav-link">Contact Me</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="home d-flex align-items-center" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <div class="home-content">
+                        <h1>Hi, It's <span>Dani</span></h1>
+                        <h3 class="text-animation">I'm a <span></span></h3>
+                        <p>I'm an Informatics student at University of Sains Al-Qur'an Wonosobo</p>
+                    </div>
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com/risqiardani_/"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://vm.tiktok.com/ZSjmcjX2Y/"><i
+                                class="bi bi-tiktok"></i></a>
+                    </div>
+                    <div class="btn-group">
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="home-img">
+                        <img src="image/danii.jpg" alt="Profile Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="content-about">
+                <h2>About Me</h2>
+                <p>Saya Muhamad risqi ardani, seorang mahasiswa Teknik Informatika di Universitas Sains Al-Qur'an
+                    Wonosobo.
+                    saya berminat
+                    untuk terus belajar dan mengembangkan keterampilan saya di dunia teknologi.</p>
+            </div>
+        </div>
+    </section>  
+    <section class="skill" id="skill">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="container-skill">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/html.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/css.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/php.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/mysql.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/figma.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/canva.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/capcut.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST" class="contact-form">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message"
+                        required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 footer-contact">
+                    <div class="social-links text-center">
+                        <a href="https://www.instagram.com/risqiardani_/profilecard/?igsh"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://vm.tiktok.com/ZSjmcjX2Y/"><i
+                                class="bi bi-tiktok"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Muhamad Risqi Ardani.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
